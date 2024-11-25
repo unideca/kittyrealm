@@ -89,9 +89,9 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
             flexDir="column"
             alignItems="center"
         >
-            <Box textAlign="center" bg="#f9fafb" p={10}>
+            <Box textAlign="center" p={10}>
       {/* 제목 */}
-      <Text fontSize="36px" fontWeight="bold" mb={8}>
+      <Text fontSize="36px" fontWeight="bold" mb={8} color="white">
         Getting Started
       </Text>
       
@@ -103,7 +103,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
         maxW="1200px"
         mx="auto"
       >
-        <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
+        <GridItem textAlign="center" bg="#6A1B9A" p={8} borderRadius="md">
           <Text
             bg="#FFD700"
             color="black"
@@ -117,14 +117,14 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
           >
             01
           </Text>
-          <Text fontSize="20px" fontWeight="bold" mb={2}>
+          <Text color="white" fontSize="20px" fontWeight="bold" mb={2}>
             Choose your wallet
           </Text>
-          <Text color="#333333" mb={4} h="72px">
+          <Text color="white" mb={4} h="72px">
             A wallet is necessary for people wanting to use, trade, or hold KittyRealm. You can pick a wallet.
           </Text>
         </GridItem>
-        <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
+        <GridItem textAlign="center" bg="#6A1B9A" p={8} borderRadius="md">
           <Text
             bg="#FFD700"
             color="black"
@@ -138,10 +138,10 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
           >
             02
           </Text>
-          <Text fontSize="20px" fontWeight="bold" mb={2}>
+          <Text color="white" fontSize="20px" fontWeight="bold" mb={2}>
             Configure your wallet
           </Text>
-          <Text color="#333333" mb={4} h="72px">
+          <Text color="white" mb={4} h="72px">
             After downloading, you can configure your wallet according to our guide.
           </Text>
           <Button 
@@ -151,7 +151,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
           download="guide.pdf" // 다운로드 속성 추가
           >Guide</Button>
         </GridItem>
-        <GridItem textAlign="center" bg="#FFF7E0" p={8} borderRadius="md">
+        <GridItem color="white" textAlign="center" bg="#6A1B9A" p={8} borderRadius="md">
           <Text
             bg="#FFD700"
             color="black"
@@ -168,7 +168,7 @@ const Services : FC<ServicesProps> = ({isRender, setIsRender, tokenExInVariants,
           <Text fontSize="20px" fontWeight="bold" mb={2}>
             Get some KITTYM
           </Text>
-          <Text color="#333333" mb={4} h="72px">
+          <Text color="white" mb={4} h="72px">
             There’s lots of ways to get your hands on some KITTYM
           </Text>
         </GridItem>

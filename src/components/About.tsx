@@ -44,7 +44,7 @@ const About : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
             flexDir="column"
             alignItems="center"
         >
-            <Text fontSize="26px" mb={24}>
+            <Text fontSize="26px" mb={24} color="white">
                 About KITTYM
             </Text>
             <motion.div
@@ -57,7 +57,7 @@ const About : FC<AboutProps> = ({isRender, tokenExInVariants}) => {
                         <Img w="300px" src="images/about.png"/>
                     </Flex>
                     <Flex flexDir="column" justifyContent="center" alignItems="center">
-                        <Text fontSize="18px">
+                        <Text fontSize="18px" color="white">
                             The KittyRealm project is an innovative blockchain initiative that introduces the charm, elegance, and playfulness of
                             kittens into the meme coin ecosystem. Representing a kingdom ruled by adorable yet regal kittens wearing crowns,
                             KittyRealm aims to establish a new paradigm in meme coin management and trading. By combining communitydriven
